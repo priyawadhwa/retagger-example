@@ -1,0 +1,15 @@
+{
+  "projects":[
+    {
+      "base_registry": "gcr.io",
+      "additional_registries": ["us.gcr.io", "eu.gcr.io", "asia.gcr.io"],
+      "repository": "priya-wadhwa/retagger-test",
+      "images": [
+        {
+                "digest": "3b3a29e3c90a",
+                "tag": "test_reconciler"
+        }
+      ]
+    }
+  ]
+}
